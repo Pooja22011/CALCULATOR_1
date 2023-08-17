@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    }
+
+body{
+   background: radial-gradient(circle,#9cebfc,#6ae1fb);
+}    
+.container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding-top: 150px;
+ 
+}
+.div2{
+    background-color: rgb(36, 34, 34);
+    height: 250px;
+    border:rgb(24, 24, 24);
+    border-style:solid;
+    border-radius: 8px;
+    
+}
+.textfield{
+    width: 250px;
+    height:40px;
+    background-color: #fff;
+    margin: 10px 10px 10px 10px;
+    border:rgb(36, 34, 34) ;
+    border-radius: 8px;
+    text-align: right;
+    font-size: xx-large;
+    padding-right: 5px;
+    
+}
+.btn{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 5px;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+       
+}
+.click{
+    color: #eee;
+    background-color: rgb(34, 31, 31);
+    border-radius: 8px;
+    cursor: pointer;
+}
+#clear{
+    background-color: rgb(226, 70, 14);
+    border:rgb(226, 70, 14) ;
+    
+}
+#equals{
+    background-color: rgb(226, 70, 14);
+    border: rgb(226, 70, 14);
+}
+.btn > div{
+    background-color: rgb(12, 11, 11);
+    height: 40px;
+    width: 20px;
+}
+
+#clear{
+    grid-column: span 2;
+}
+#equals{
+    grid-column: 1/span 3;
+}
